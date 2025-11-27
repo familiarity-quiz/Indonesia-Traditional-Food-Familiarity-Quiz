@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Indonesia traditional food familiarity quiz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+  <div class="wuiztitle">
+    <h1 id="quiz-title">Test</h1>
+  </div>
+  <div class="quiz-container">
+<!--<p id="quiz-description">Check you familiarity of Indonesia traditional food!</p> -->
+
+<div id="instruction-screen">
+    <h2>Instructions</h2>
+    <p>Hi! I’m doing a quick study on how familiar teenagers are with traditional Indonesian food using an interactive quiz. Here’s how it works:</p>
+    <ol>
+        <li>Answer the questions honestly.</li>
+        <li>By the end of the quiz, it will generate an illustration based on your answer</li>
+        <li>You can download the final result</li>
+        <li>Please upload your result to the provided drive</li>
+    </ol>
+    <p>Thank you and hope you enjoy!</p>
+    <button id="go-to-start-btn">Next</button>
+</div>
+
+    <div id="start-screen" class="hidden">
+      <button id="start-btn">Start Quiz</button>
+    </div>
+
+    <div id="question-container" class="hidden"></div>
+
+    <div id="result-container" class="hidden">
+      
+      <p id="result-message"></p>
+      <img id="result" />
+      <h2 id="result-level"></h2>
+      <div class="last">
+        <p1>Please downlod the image using the download button, then upload it to the drive provided below. Thank you!</p1>
+      </div>
+      <button id="restart-btn">Restart</button>
+    </div>
+  </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
