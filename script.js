@@ -14,7 +14,7 @@ const instructionScreen = document.getElementById("instruction-screen");
 const goToStartBtn = document.getElementById("go-to-start-btn");
 
 // JSON here
-fetch("depression_quiz.json")
+fetch("kyuiz.json")
   .then(res => res.json())
   .then(data => {
     quizData = data;
