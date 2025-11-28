@@ -23,7 +23,7 @@ body::before {
 
 @font-face {
   font-family: myFont;
-  src: url(Montserrat-Regular.ttf);
+  src: url(assets/Montserrat-Regular.ttf);
 }
 
 #instruction-screen li{
