@@ -206,7 +206,7 @@ function finalizeResult(canvas) {
 function styleButton(btn, bgColor) {
     btn.style.display = "inline-block";
     btn.style.marginTop = "10px";
-    // btn.style.marginRight = "10px";
+    btn.style.marginRight = "5px";
     btn.style.padding = "10px 20px";
     //btn.style.marginTop = "20px";
     btn.style.backgroundColor = bgColor;
