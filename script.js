@@ -116,15 +116,15 @@ resultMessage.textContent = quizData.quiz.ending_message;
     let scoreMessage = "";
 
 if (score < 5) {
-    scoreImage = "../assets/art-under.png";
+    scoreImage = "assets/art-under.png";
     scoreMessage = "You're a curious explorer! Your not very familiar on which foods are truly Indonesia traditional food, but that's ok. This will be the beginning of your journey to learn~";
 } 
 else if (score < 7) {
-    scoreImage = "../assets/art-middle.png";
+    scoreImage = "assets/art-middle.png";
     scoreMessage = "You're a skilled wanderer! You have a decent understanding of Indonesian traditional foods. go ahead and keep exploring to uncover more of Indonesia traditional foods.";
 } 
 else {
-    scoreImage = "../assets/art-above.png";
+    scoreImage = "assets/art-above.png";
     scoreMessage = "You're a seasoned adventurer! You're very familiar with Indonesian traditional foods. Great job! With that knowledge, maybe you can discover even more about Indonesia traditional food in the future";
 } 
 
