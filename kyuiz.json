@@ -27,9 +27,9 @@
       {
         "text": "Which of these foods is Indonesia traditional food?",
         "answers": [
-        {"label": "Perkedel", "image": "assets/perkedel.png", "store": false, "showImage": true},
-        {"label": "Pecel", "image": "assets/pecel.png", "store": false, "showImage": true},
-        {"label": "Soto", "image": "assets/soto.png", "store": false, "showImage": true}
+        {"label": "Perkedel", "image": "..assets/perkedel.png", "store": false, "showImage": true},
+        {"label": "Pecel", "image": "..assets/pecel.png", "store": false, "showImage": true},
+        {"label": "Soto", "image": "..assets/soto.png", "store": false, "showImage": true}
         ],
         "scores": [0, 1, 0]
       },
@@ -53,7 +53,7 @@
       },
       {
         "text": "How often do you consume Indonesia traditional food?",
-        "choices": ["Rarely", "Few times a week", "Often/Everyday"],
+        "choices": ["Rarely", "Few times a week", "often/Everyday"],
         "scores": [0, 1, 2]
       },
       {
