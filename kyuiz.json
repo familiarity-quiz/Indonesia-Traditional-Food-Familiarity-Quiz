@@ -1,0 +1,82 @@
+{
+  "quiz": {
+    "title": "How familiar are you with Indonesia traditional food?",
+    "questions": [
+      {
+        "text": "How old are you?",
+      "answers": [
+        {"label": "Under 17", "image": "assets/under.png", "store": true, "showImage": false},
+        {"label": "17-23", "image": "assets/middle.png", "store": true, "showImage": false},
+        {"label": "above 23", "image": "assets/above.png", "store": true, "showImage": false}
+      ]
+      },
+      {
+        "text": "Are you familiar with Indonesia traditional food?",
+        "choices": ["Yes", "No"],
+        "scores": [1, 0]
+      },
+      {
+        "text": "Which of these foods is Indonesia traditional food?",
+        "answers": [
+        {"label": "Martabak", "image": "assets/martabak.png", "store": false, "showImage": true},
+        {"label": "Rawon", "image": "assets/rawon.png", "store": false, "showImage": true},
+        {"label": "Semur", "image": "assets/semur.png", "store": false, "showImage": true}
+        ],
+        "scores": [0, 1, 0]
+      },
+      {
+        "text": "Which of these foods is Indonesia traditional food?",
+        "answers": [
+        {"label": "Perkedel", "image": "assets/perkedel.png", "store": false, "showImage": true},
+        {"label": "Pecel", "image": "assets/pecel.png", "store": false, "showImage": true},
+        {"label": "Soto", "image": "assets/soto.png", "store": false, "showImage": true}
+        ],
+        "scores": [0, 1, 0]
+      },
+       {
+        "text": "Which of these food has been influenced by globalization?",
+        "answers": [
+        {"label": "Ayam Geprek", "image": "assets/ayamgeprek.png", "store": false, "showImage": true},
+        {"label": "Papeda", "image": "assets/papeda.png", "store": false, "showImage": true},
+        {"label": "Nasi Liwet", "image": "assets/nasiliwet.png", "store": false, "showImage": true}
+        ],
+        "scores": [1, 0, 0]
+      },
+      {
+        "text": "Which of these food has been influenced by globalization?",
+        "answers": [
+        {"label": "Putu Ayu", "image": "assets/putuayu.png", "store": false, "showImage": true},
+        {"label": "Serabi", "image": "assets/serabi.png", "store": false, "showImage": true},
+        {"label": "Kue Lumpur", "image": "assets/kuelumpur.webp", "store": false, "showImage": true}
+        ],
+        "scores": [0, 0, 1]
+      },
+      {
+        "text": "How often do you consume Indonesia traditional food?",
+        "choices": ["Rarely", "Few times a week", "Often/Everyday"],
+        "scores": [0, 1, 2]
+      },
+      {
+        "text": "Do you think it is harder to tell which food are truly Indonesia traditional food?",
+        "choices": ["Yes", "No"],
+        "scores": [0, 1]
+      },
+      {
+        "text": "Why?",
+      "answers": [
+        {"label": "It have many influence", "image": "assets/1.png", "store": true, "showImage": false},
+        {"label": "Questionable origin", "image": "assets/2.png", "store": true, "showImage": false},
+        {"label": "Not too familiar with it", "image": "assets/3.png", "store": true, "showImage": false}
+      ]
+      },
+      {
+        "text": "After this quiz, do you feel more interested in knowing Indonesia food origins?",
+      "answers": [
+        {"label": "Yes", "image": "assets/yes.png", "store": true, "showImage": false},
+        {"label": "No", "image": "assets/no.png", "store": true, "showImage": false}
+      ]
+      }
+    ],
+    "ending_message": "Congratulations! Here’s an illustration generated based on your score!"
+  }
+}
