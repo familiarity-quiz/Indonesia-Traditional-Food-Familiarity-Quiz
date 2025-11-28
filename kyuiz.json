@@ -5,9 +5,9 @@
       {
         "text": "How old are you?",
       "answers": [
-        {"label": "Under 17", "image": "../assets/under.png", "store": true, "showImage": false},
-        {"label": "17-23", "image": "../assets/middle.png", "store": true, "showImage": false},
-        {"label": "above 23", "image": "../assets/above.png", "store": true, "showImage": false}
+        {"label": "Under 17", "image": "/assets/under.png", "store": true, "showImage": false},
+        {"label": "17-23", "image": "/assets/middle.png", "store": true, "showImage": false},
+        {"label": "above 23", "image": "/assets/above.png", "store": true, "showImage": false}
       ]
       },
       {
@@ -18,36 +18,36 @@
       {
         "text": "Which of these foods is Indonesia traditional food?",
         "answers": [
-        {"label": "Martabak", "image": "../assets/martabak.png", "store": false, "showImage": true},
-        {"label": "Rawon", "image": "../assets/rawon.png", "store": false, "showImage": true},
-        {"label": "Semur", "image": "../assets/semur.png", "store": false, "showImage": true}
+        {"label": "Martabak", "image": "/assets/martabak.png", "store": false, "showImage": true},
+        {"label": "Rawon", "image": "/assets/rawon.png", "store": false, "showImage": true},
+        {"label": "Semur", "image": "/assets/semur.png", "store": false, "showImage": true}
         ],
         "scores": [0, 1, 0]
       },
       {
         "text": "Which of these foods is Indonesia traditional food?",
         "answers": [
-        {"label": "Perkedel", "image": "..assets/perkedel.png", "store": false, "showImage": true},
-        {"label": "Pecel", "image": "..assets/pecel.png", "store": false, "showImage": true},
-        {"label": "Soto", "image": "..assets/soto.png", "store": false, "showImage": true}
+        {"label": "Perkedel", "image": "assets/perkedel.png", "store": false, "showImage": true},
+        {"label": "Pecel", "image": "assets/pecel.png", "store": false, "showImage": true},
+        {"label": "Soto", "image": "assets/soto.png", "store": false, "showImage": true}
         ],
         "scores": [0, 1, 0]
       },
        {
         "text": "Which of these food has been influenced by globalization?",
         "answers": [
-        {"label": "Ayam Geprek", "image": "../assets/ayamgeprek.png", "store": false, "showImage": true},
-        {"label": "Papeda", "image": "../assets/papeda.png", "store": false, "showImage": true},
-        {"label": "Nasi Liwet", "image": "../assets/nasiliwet.png", "store": false, "showImage": true}
+        {"label": "Ayam Geprek", "image": "/assets/ayamgeprek.png", "store": false, "showImage": true},
+        {"label": "Papeda", "image": "/assets/papeda.png", "store": false, "showImage": true},
+        {"label": "Nasi Liwet", "image": "/assets/nasiliwet.png", "store": false, "showImage": true}
         ],
         "scores": [1, 0, 0]
       },
       {
         "text": "Which of these food has been influenced by globalization?",
         "answers": [
-        {"label": "Putu Ayu", "image": "../assets/putuayu.png", "store": false, "showImage": true},
-        {"label": "Serabi", "image": "../assets/serabi.png", "store": false, "showImage": true},
-        {"label": "Kue Lumpur", "image": "../assets/kuelumpur.webp", "store": false, "showImage": true}
+        {"label": "Putu Ayu", "image": "/assets/putuayu.png", "store": false, "showImage": true},
+        {"label": "Serabi", "image": "/assets/serabi.png", "store": false, "showImage": true},
+        {"label": "Kue Lumpur", "image": "/assets/kuelumpur.webp", "store": false, "showImage": true}
         ],
         "scores": [0, 0, 1]
       },
@@ -64,16 +64,16 @@
       {
         "text": "Why?",
       "answers": [
-        {"label": "It have many influence", "image": "../assets/1.png", "store": true, "showImage": false},
-        {"label": "Questionable origin", "image": "../assets/2.png", "store": true, "showImage": false},
-        {"label": "Not too familiar with it", "image": "../assets/3.png", "store": true, "showImage": false}
+        {"label": "It have many influence", "image": "/assets/1.png", "store": true, "showImage": false},
+        {"label": "Questionable origin", "image": "/assets/2.png", "store": true, "showImage": false},
+        {"label": "Not too familiar with it", "image": "/assets/3.png", "store": true, "showImage": false}
       ]
       },
       {
         "text": "After this quiz, do you feel more interested in knowing Indonesia food origins?",
       "answers": [
-        {"label": "Yes", "image": "../assets/yes.png", "store": true, "showImage": false},
-        {"label": "No", "image": "../assets/no.png", "store": true, "showImage": false}
+        {"label": "Yes", "image": "/assets/yes.png", "store": true, "showImage": false},
+        {"label": "No", "image": "/assets/no.png", "store": true, "showImage": false}
       ]
       }
     ],
