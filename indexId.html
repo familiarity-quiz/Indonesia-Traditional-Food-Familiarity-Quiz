@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Indonesia traditional food familiarity quiz</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div class="container">
+  <div class="wuiztitle">
+    <h1 id="quiz-title">Test</h1>
+  </div>
+  <div class="quiz-container">
+<!--<p id="quiz-description">Check you familiarity of Indonesia traditional food!</p> -->
+
+<div id="instruction-screen">
+    <h2>Petunjuk</h2>
+    <p>Hallo! Saya sedang melakukan studi singkat tentang seberapa familiarnya anak muda dengan makanan tradisional Indonesia menggunakan kuis interaktif. Begini cara kerjanya:</p>
+    <ol>
+        <li>Jawablah pertanyaan dengan jujur.</li>
+        <li>Pada akhir kuis ini, akan ditampilkan sebuah ilustrasi berdasarkan jawaban Anda</li>
+        <li>Anda dapat mengunduh hasil akhirnya</li>
+        <li>Silakan upload hasil ilustrasi yang anda dapat ke dalam drive yang disediakan</li>
+    </ol>
+    <p>Terima kasih dan semoga Anda menikmatinya!</p>
+    <button id="go-to-start-btn">Lanjut</button>
+</div>
+
+    <div id="start-screen" class="hidden">
+      <button id="start-btn">Mulai Quiz</button>
+    </div>
+
+    <div id="question-container" class="hidden"></div>
+
+    <div id="result-container" class="hidden">
+      
+      <p id="result-message"></p>
+      <img id="result" />
+      <h2 id="result-level"></h2>
+      <div class="last">
+        <p1>Silakan unduh gambar menggunakan tombol "Unduh Gambar", lalu masukan ke dalam drive yang tersedia di bawah ini. Terima kasih!</p1>
+      </div>
+      <button id="restart-btn">Memulai Ulang</button>
+    </div>
+  </div>
+  </div>
+
+  <script src="scriptINDO.js"></script>
+</body>
+</html>
