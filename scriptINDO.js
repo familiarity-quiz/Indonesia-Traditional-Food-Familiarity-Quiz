@@ -219,7 +219,7 @@ uploadBtn.addEventListener("mouseleave", () => {
     uploadBtn.style.backgroundColor = "#4285F4";
     uploadBtn.style.transform = "scale(1)";
 });
-    document.getElementById("buton-container").appendChild(uploadBtn);
+    document.getElementById("button-container").appendChild(uploadBtn);
 }
 
 // button style
