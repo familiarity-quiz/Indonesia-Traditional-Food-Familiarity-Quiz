@@ -13,7 +13,7 @@
       },
       {
         "text": "Apakah kamu familiar dengan makanan tradisional Indonesia?",
-        "choices": ["Yas", "Tidak"],
+        "choices": ["Ya", "Tidak"],
         "scores": [1, 0]
       },
       {
