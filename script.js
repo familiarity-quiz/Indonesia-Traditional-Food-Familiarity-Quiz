@@ -190,7 +190,7 @@ function finalizeResult(canvas) {
     downloadBtn.href = canvas.toDataURL("image/png");
     downloadBtn.download = "Quiz_result.png";
     styleButton(downloadBtn, "#4CAF50");
-  // Hover ON
+    // Hover ON
 downloadBtn.addEventListener("mouseenter", () => {
     downloadBtn.style.backgroundColor = "#26722aff"; 
 });
@@ -200,7 +200,7 @@ downloadBtn.addEventListener("mouseleave", () => {
     downloadBtn.style.backgroundColor = "#4CAF50"; 
     downloadBtn.style.transform = "scale(1)";
 });
-    document.getElementById("button-conntainer").appendChild(downloadBtn);
+    document.getElementById("button-container").appendChild(downloadBtn);
 
     // upppload button
     const uploadBtn = document.createElement("a");
@@ -209,7 +209,7 @@ downloadBtn.addEventListener("mouseleave", () => {
     uploadBtn.href = "https://drive.google.com/drive/folders/1GL0Bx0vo2K-QF7glbquVM5ZubNdPMyQd?usp=drive_link";
     uploadBtn.target = "_blank";
     styleButton(uploadBtn, "#4285F4");
-  // Hover ON
+    // Hover ON
 uploadBtn.addEventListener("mouseenter", () => {
     uploadBtn.style.backgroundColor = "#275196ff"; 
 });
@@ -245,6 +245,12 @@ document.getElementById("restart-btn").addEventListener("click", () => {
 
     instructionScreen.classList.remove("hidden"); 
     startScreen.classList.add("hidden");          
+
+
+    questionContainer.classList.add("hidden");
+    resultContainer.classList.add("hidden");
+});
+
 
 
     questionContainer.classList.add("hidden");
