@@ -200,7 +200,7 @@ downloadBtn.addEventListener("mouseleave", () => {
     downloadBtn.style.backgroundColor = "#4CAF50"; 
     downloadBtn.style.transform = "scale(1)";
 });
-    document.getElementById("result-container").appendChild(downloadBtn);
+    document.getElementById("button-container").appendChild(downloadBtn);
 
     // upppload button
     const uploadBtn = document.createElement("a");
@@ -219,7 +219,7 @@ uploadBtn.addEventListener("mouseleave", () => {
     uploadBtn.style.backgroundColor = "#4285F4";
     uploadBtn.style.transform = "scale(1)";
 });
-    document.getElementById("result-container").appendChild(uploadBtn);
+    document.getElementById("buton-container").appendChild(uploadBtn);
 }
 
 // button style
