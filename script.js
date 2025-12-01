@@ -190,7 +190,7 @@ function finalizeResult(canvas) {
     downloadBtn.href = canvas.toDataURL("image/png");
     downloadBtn.download = "Quiz_result.png";
     styleButton(downloadBtn, "#4CAF50");
-    document.getElementById("button-container").appendChild(downloadBtn);
+    document.getElementById("result-container").appendChild(downloadBtn);
 
     // upppload button
     const uploadBtn = document.createElement("a");
@@ -199,7 +199,7 @@ function finalizeResult(canvas) {
     uploadBtn.href = "https://drive.google.com/drive/folders/1GL0Bx0vo2K-QF7glbquVM5ZubNdPMyQd?usp=drive_link";
     uploadBtn.target = "_blank";
     styleButton(uploadBtn, "#4285F4");
-    document.getElementById("button-container").appendChild(uploadBtn);
+    document.getElementById("result-container").appendChild(uploadBtn);
 }
 
 // button style
