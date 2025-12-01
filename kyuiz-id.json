@@ -1,1 +1,83 @@
 
+{
+  "quiz": {
+    "title": "How familiar are you with Indonesia traditional food?",
+    "questions": [
+      {
+        "text": "Umur berapa kah anda?",
+      "answers": [
+        {"label": "Di bawah 17", "image": "assets/under.png", "store": true, "showImage": false},
+        {"label": "17-23", "image": "assets/middle.png", "store": true, "showImage": false},
+        {"label": "Di atas 23", "image": "assets/above.png", "store": true, "showImage": false}
+      ]
+      },
+      {
+        "text": "Apakah kamu familiar dengan makanan tradisional Indonesia?",
+        "choices": ["Yas", "Tidak"],
+        "scores": [1, 0]
+      },
+      {
+        "text": "Di bawah ini, makanan manakah yang merupakan makanan tradisional Indonesia?",
+        "answers": [
+        {"label": "Martabak", "image": "assets/martabak.png", "store": false, "showImage": true},
+        {"label": "Rawon", "image": "assets/rawon.png", "store": false, "showImage": true},
+        {"label": "Semur", "image": "assets/semur.png", "store": false, "showImage": true}
+        ],
+        "scores": [0, 1, 0]
+      },
+      {
+        "text": "Di bawah ini, makanan manakah yang merupakan makanan tradisional Indonesia?",
+        "answers": [
+        {"label": "Perkedel", "image": "assets/perkedel.png", "store": false, "showImage": true},
+        {"label": "Pecel", "image": "assets/pecel.png", "store": false, "showImage": true},
+        {"label": "Soto", "image": "assets/soto.png", "store": false, "showImage": true}
+        ],
+        "scores": [0, 1, 0]
+      },
+       {
+        "text": "Di bawah ini, makanan manakah yang sudah terpengaruh oleh globalisasi?",
+        "answers": [
+        {"label": "Ayam Geprek", "image": "assets/ayamgeprek.png", "store": false, "showImage": true},
+        {"label": "Papeda", "image": "assets/papeda.png", "store": false, "showImage": true},
+        {"label": "Nasi Liwet", "image": "assets/nasiliwet.png", "store": false, "showImage": true}
+        ],
+        "scores": [1, 0, 0]
+      },
+      {
+        "text": "Di bawah ini, makanan manakah yang sudah terpengaruh oleh globalisasi?",
+        "answers": [
+        {"label": "Putu Ayu", "image": "assets/putuayu.png", "store": false, "showImage": true},
+        {"label": "Serabi", "image": "assets/serabi.png", "store": false, "showImage": true},
+        {"label": "Kue Lumpur", "image": "assets/kuelumpur.webp", "store": false, "showImage": true}
+        ],
+        "scores": [0, 0, 1]
+      },
+      {
+        "text": "Seberapa sering Anda mengonsumsi makanan tradisional Indonesia?",
+        "choices": ["Jarang", "Beberapa kali seminggu", "Sering/Setiap hari"],
+        "scores": [0, 1, 2]
+      },
+      {
+        "text": "Menurut Anda, apakah sekarang lebih sulit untuk membedakan makanan mana yang benar-benar makanan tradisional Indonesia?",
+        "choices": ["Ya", "Tidak"],
+        "scores": [0, 1]
+      },
+      {
+        "text": "Kenapa?",
+      "answers": [
+        {"label": "Banyak pengaruh dari luar", "image": "assets/1.png", "store": true, "showImage": false},
+        {"label": "Asal usul yang kurang jelas", "image": "assets/2.png", "store": true, "showImage": false},
+        {"label": "Tidak terlalu familiar", "image": "assets/3.png", "store": true, "showImage": false}
+      ]
+      },
+      {
+        "text": "Setelah kuis ini, apakah Anda merasa lebih tertarik untuk mengetahui asal usul makanan Indonesia?",
+      "answers": [
+        {"label": "Ya", "image": "assets/yes.png", "store": true, "showImage": false},
+        {"label": "Tidak", "image": "assets/no.png", "store": true, "showImage": false}
+      ]
+      }
+    ],
+    "ending_message": "Selamat! Berikut adalah ilustrasi yang dibuat berdasarkan jawaban Anda!"
+  }
+}
