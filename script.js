@@ -200,7 +200,7 @@ downloadBtn.addEventListener("mouseleave", () => {
     downloadBtn.style.backgroundColor = "#4CAF50"; 
     downloadBtn.style.transform = "scale(1)";
 });
-    document.getElementById("result-container").appendChild(downloadBtn);
+    document.getElementById("button-conntainer").appendChild(downloadBtn);
 
     // upppload button
     const uploadBtn = document.createElement("a");
@@ -219,14 +219,14 @@ uploadBtn.addEventListener("mouseleave", () => {
     uploadBtn.style.backgroundColor = "#4285F4";
     uploadBtn.style.transform = "scale(1)";
 });
-    document.getElementById("result-container").appendChild(uploadBtn);
+    document.getElementById("button-container").appendChild(uploadBtn);
 }
 
 // button style
 function styleButton(btn, bgColor) {
     btn.style.display = "inline-block";
     btn.style.marginTop = "10px";
-    btn.style.marginRight = "5px";
+    btn.style.marginRight = "10px";
     btn.style.padding = "10px 20px";
     //btn.style.marginTop = "20px";
     btn.style.backgroundColor = bgColor;
