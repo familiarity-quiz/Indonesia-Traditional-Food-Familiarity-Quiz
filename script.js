@@ -250,10 +250,3 @@ document.getElementById("restart-btn").addEventListener("click", () => {
     questionContainer.classList.add("hidden");
     resultContainer.classList.add("hidden");
 });
-
-
-
-    questionContainer.classList.add("hidden");
-    resultContainer.classList.add("hidden");
-});
-
