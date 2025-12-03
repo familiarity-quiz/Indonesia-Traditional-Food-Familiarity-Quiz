@@ -186,7 +186,7 @@ function finalizeResult(canvas) {
     // downwnload button
     const downloadBtn = document.createElement("a");
     downloadBtn.id = "download-btn";
-    downloadBtn.textContent = "Unduh Gambar";
+    downloadBtn.textContent = "Download Image";
     downloadBtn.href = canvas.toDataURL("image/png");
     downloadBtn.download = "Quiz_result.png";
     styleButton(downloadBtn, "#4CAF50");
@@ -205,7 +205,7 @@ downloadBtn.addEventListener("mouseleave", () => {
     // upppload button
     const uploadBtn = document.createElement("a");
     uploadBtn.id = "upload-btn";
-    uploadBtn.textContent = "Unggah ke Drive";
+    uploadBtn.textContent = "Uppload to Drive";
     uploadBtn.href = "https://drive.google.com/drive/folders/1GL0Bx0vo2K-QF7glbquVM5ZubNdPMyQd?usp=drive_link";
     uploadBtn.target = "_blank";
     styleButton(uploadBtn, "#4285F4");
